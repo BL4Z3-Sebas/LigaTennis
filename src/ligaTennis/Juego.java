@@ -79,4 +79,88 @@ public class Juego {
         }
         return this.jugador2;
     }
+
+    public Jugador getJugador1() {
+        return jugador1;
+    }
+
+    public Jugador getJugador2() {
+        return jugador2;
+    }
+
+    public Juez getJuez() {
+        return juez;
+    }
+
+    public ArrayList<Set> getSets() {
+        return sets;
+    }
 }
+/**
+------------- Resultados -------------
+
+Jugador 1: Rafael Nadal
+Jugador 2: Martina Hingis
+Juez: Pedro Perez
+Set 1: 6 - 4
+Set 2: 1 - 6
+Set 3: 6 - 3
+Ganador: Rafael Nadal
+
+Jugador 1: Roger Federer
+Jugador 2: Monica Seles
+Juez: Alejandro Fernandez
+Set 1: 6 - 1
+Set 2: 5 - 7
+Set 3: 3 - 6
+Ganador: Monica Seles
+
+Jugador 1: Novak Djokovic
+Jugador 2: Venus Williams
+Juez: Pedro Perez
+Set 1: 1 - 6
+Set 2: 4 - 6
+Ganador: Venus Williams
+
+Jugador 1: Andre Agassi
+Jugador 2: Martina Navratilova
+Juez: Alejandro Fernandez
+Set 1: 6 - 2
+Set 2: 6 - 0
+Ganador: Andre Agassi
+
+Jugador 1: Rafael Nadal
+Jugador 2: Monica Seles
+Juez: Pedro Perez
+Set 1: 6 - 4
+Set 2: 4 - 6
+Set 3: 3 - 6
+Ganador: Monica Seles
+
+Jugador 1: Venus Williams
+Jugador 2: Andre Agassi
+Juez: Alejandro Fernandez
+Set 1: 7 - 5
+Set 2: 2 - 6
+Set 3: 1 - 6
+Ganador: Andre Agassi
+
+Jugador 1: Monica Seles
+Jugador 2: Andre Agassi
+Juez: Pedro Perez
+Set 1: 6 - 2
+Set 2: 3 - 6
+Set 3: 7 - 9
+Ganador: Andre Agassi
+
+El ganador del campeonato es: Andre Agassi
+
+El jugador: Rafael Nadal gano 3 sets en el campeonato
+El jugador: Martina Hingis gano 1 sets en el campeonato
+El jugador: Roger Federer gano 1 sets en el campeonato
+El jugador: Monica Seles gano 5 sets en el campeonato
+El jugador: Novak Djokovic gano 0 sets en el campeonato
+El jugador: Venus Williams gano 3 sets en el campeonato
+El jugador: Andre Agassi gano 6 sets en el campeonato
+El jugador: Martina Navratilova gano 0 sets en el campeonato
+*/
