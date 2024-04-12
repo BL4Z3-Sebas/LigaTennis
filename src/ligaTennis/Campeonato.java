@@ -35,7 +35,7 @@ public class Campeonato {
                System.out.println("Set "+index+": "+set.getPuntoJugador1()+" - "+set.getPuntoJugador2());
                index++;
            }
-           System.out.println("Ganador: "+juego.getGanador());
+           System.out.println("Ganador: "+juego.getGanador().getNombre());
        }
        System.out.println("El ganador del campeonato es: "+this.juegos.get(this.juegos.size()-1).getGanador().getNombre());
    }
